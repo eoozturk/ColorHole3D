@@ -10,7 +10,7 @@ using UnityEditor;
 
 public class UIManager : MonoBehaviour
 {
-    public int level;
+    public string level;
     public TextMeshProUGUI startText;
     [SerializeField] Slider pointSlider1, pointSlider2;
     [SerializeField] GameObject gameOverPanel, nextLevelPanel;

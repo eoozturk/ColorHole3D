@@ -8639,6 +8639,14 @@ PrefabInstance:
       propertyPath: m_MaxValue
       value: 96
       objectReference: {fileID: 0}
+    - target: {fileID: 2753742527761003724, guid: 2b6b8666c5e7d4641ab8b7b1dfa19ffd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 335.652
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753742527761003724, guid: 2b6b8666c5e7d4641ab8b7b1dfa19ffd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2753742527761003727, guid: 2b6b8666c5e7d4641ab8b7b1dfa19ffd, type: 3}
       propertyPath: m_IsActive
       value: 0

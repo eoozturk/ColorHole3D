@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    private float speed = 50.0f;
+    private float speed = 25.0f;
     private Rigidbody rbPlayer;
     private GameObject direction;
     private GameManager gameManager;
@@ -48,9 +48,9 @@ public class PlayerControl : MonoBehaviour
     //Move player with arrow keys:
     void MovePlayer()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-
+        float horizontalInput = Input.GetAxis("Horizontal");
+        
         rbPlayer.AddForce(Vector3.forward * speed * verticalInput);
         rbPlayer.AddForce(Vector3.right * speed * horizontalInput);
     }
@@ -58,7 +58,7 @@ public class PlayerControl : MonoBehaviour
     //Move player automatically expected locations:
     public void GoDirection()
     {
-        var step = (speed/10.0f) * Time.deltaTime;
+        var step = (speed/5.0f) * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, direction.transform.position, step);
        
         if(transform.position == direction.transform.position)

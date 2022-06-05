@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
                 PlayParticleSystem();
                 score = 100;
                 isGameActive = true;
-                uiManager.level = 1;
+                uiManager.level = "Level2";
                 uiManager.UpdateScore(score);         
                 uiManager.NextLevelActive();
             }
@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour
                 PlayParticleSystem();
                 score = 200;
                 isGameActive = true;
-                uiManager.level = 0;           
+                uiManager.level = "Level1";           
                 uiManager.UpdateScore(score);
                 uiManager.NextLevelActive();
             }
