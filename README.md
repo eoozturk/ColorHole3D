@@ -7,7 +7,6 @@ Default Screen Resolution: 1920x1080 - Full HD
 Unity Play: https://play.unity.com/mg/other/colorhole3d
 
 * Character Control with Arrow Keys
-* Shadow Efect
 * Spawn Manager
 * Data Persistence between scenes
 * Automatically GameObject Moving
@@ -16,13 +15,13 @@ Unity Play: https://play.unity.com/mg/other/colorhole3d
 * Coroutines
 * Particle System
 
-
-
-https://user-images.githubusercontent.com/28606938/172071781-8cb2c58e-3cbf-420e-b331-c97847a9186f.mov
-
+https://user-images.githubusercontent.com/28606938/172072184-cca267ea-1f81-441f-beed-718e7ab5e189.mov
 
 
 https://user-images.githubusercontent.com/28606938/172071855-28273832-4340-4c6f-a40e-6c22ddd4a143.mov
+
+
+
 
 
 
